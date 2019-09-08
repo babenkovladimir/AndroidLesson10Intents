@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".intents.IntentActivity"
+  android:orientation="vertical">
+
+  <Button
+    android:id="@+id/btActionView"
+    android:layout_width="match_parent"
+    android:text="Alyarm"
+    android:layout_height="wrap_content"/>
+
+  <Button
+    android:id="@+id/btAlyarmClock"
+    android:layout_width="match_parent"
+    android:text="Alyarm"
+    android:layout_height="wrap_content"/>
+
+
+  <Button
+    android:text="Take picture"
+    android:id="@+id/btTakePicture"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+  <Button
+    android:text="Open map"
+    android:id="@+id/btOpenMap"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
